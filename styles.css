@@ -5,9 +5,29 @@ body{
     color: white;
     background-color: #05a3ff;
 }
+a:link{
+    color: white; text-decoration: none;
+}
+a:visited{
+    color: white;text-decoration: none;
+}
+
+a:hover{
+    color:white; text-decoration: none;
+}
 
 h1{
     color:#ffee05;
+    color: inherit;
+}
+
+
+mark{
+    background-color: #ffee05;
+}
+
+a{
+    text-decoration: none;
 }
 
 .stopFloat{    
@@ -16,7 +36,6 @@ h1{
 
 .alinharElementosAEsquerda{
     float: left;
-  
 }
 
 .alinharElementosADireita{
@@ -25,9 +44,17 @@ h1{
 
 .alinharTextoADireita{
     text-align: right;
+    text-decoration: none;
 }
 
 .alinharTextoAEsquerda{
     text-align: left;
+    text-decoration: none;
 }
+
+.alinharAocentro{
+    display: flex;
+    justify-content:center;
+}
+
 
